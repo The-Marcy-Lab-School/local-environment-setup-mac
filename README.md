@@ -20,3 +20,7 @@ VS Code is a code editor we can use to edit files and write programs.
 
 ![shell](./assets/shell.png)
 
+4. If the Shell Command install was successful, you should see this pop-up in the bottom-right of your VS Code:
+
+![installed](./assets/installed.png)
+
