@@ -50,7 +50,7 @@ You can do using the following commands:
 
 ![commands](./assets/commands.png)
 
-3. Lastly, you should be able to type the command `code .` into your terminal and it will open VS Code for you. Remember this terminal command in the future. It will be very helpful!
+3. Lastly, you should type the command `code .` into your terminal and it will open VS Code for you. Remember this terminal command in the future. It will be very helpful!
 
 4. Familiarize yourself with VS Code. This will be your new coding environment. It is very similar to AWS Cloud 9 as long as you **open VS Code via the Terminal** from the **home directory** (you can always navigate to the home directory with `cd` and no path following the command). 
 
@@ -74,7 +74,7 @@ At this point, you should be able to clone down, work on, and push back up to Gi
 
 1. Using the terminal, `git clone` one of your old Problem Sets that have tests. Make sure your keep your directory structure clean. You should clone it in an appropriate folder. You can always run `pwd` and `ls` to check where you are. 
 
-2. In the terminal, `cd` into the problem set you just cloned down. Run `npm install`, then run `npm test` to see the test run. 
+2. In the terminal, `cd` into the problem set you just cloned down. Run `npm install`, then run `npm test` to see the tests run. 
 
 3. Make a minor change to the `README.md` file of your problem set, add and commit that change, and push it back to Github. Double check using the Internet browser that your change was pushed to the remote repo. 
 
