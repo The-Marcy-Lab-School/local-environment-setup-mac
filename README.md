@@ -14,3 +14,5 @@ VS Code is a code editor we can use to edit files and write programs.
 
 Open up "Finder", navigate to your Downloads folder, click the `.zip` file, then drag Visual Studio Code to your Application folder.
 
+[!download](./assets/download.png)
+
