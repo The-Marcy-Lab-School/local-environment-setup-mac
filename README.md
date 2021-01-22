@@ -5,8 +5,9 @@ Today, we'll be setting up our local development environment for Mac. For the Wi
 ## Table of Contents
 1. Download VS Code for Mac and command line tools
 2. Set up local Development directory
-3. Configuring Github with your Terminal
-4. Add SSH Key for Github Setup
+3. Install Node, NPM, and React
+4. Configuring Github with your Terminal
+5. Add SSH Key for Github Setup
 
 ## Download VS Code
 VS Code is a code editor we can use to edit files and write programs. 
@@ -57,6 +58,24 @@ You can do using the following commands:
 
 ![vscode](./assets/vscode.png)
 
+## Download Node and NPM
+
+1. [Download Node form their website](https://nodejs.org/en/). Make sur eyou click on the LTS version Recommended For Most Users. Go through the installation steps. 
+
+2. When you are finished installing, quit and restart your Terminal. Type `node -v` and you should not get an error and should see some version number. Type `npm -v` and you should not get an error and should see some version number.
+
+## Download React
+
+1. In your terminal, run `npm install -g create-react-app`. If you get an error, run `sudo npm install -g create-react-app` instead and provide your computer's password. 
+
+2. In the terminal, navigate until you are in the `Development` folder you created. Once you're in the `Development` folder, run `npx create-react-app my-app` and wait until the React project is created. Then run `cd my-app`. Then run `npm start`.
+
+3. You should see the following webpage open in your browser:
+
+![react](./assets/react.png)
+
+4. Now that we've confirmed React is installed, you should delete the folder `my-app` via Finder or the Terminal (`rm -rf my-app`). 
+
 ## Configuring Github with your Terminal
 
 1. In either your Mac Terminal or VS Code Terminal, Run the following lines:
@@ -93,9 +112,18 @@ Click the "New SSH key" button:
 
 ![7](./assets/7.png)
 
-Put whatever you want for the title, but preferably something related to C9 since that's the machine that has this key. Paste the key in the text area and click "Add SSH key".
+Put whatever you want for the title, like "Personal Computer". Paste the key in the text area and click "Add SSH key".
 
 ![8](./assets/8.png)
 
 ### Confirm that everything is working
 
+At this point, you should be able to clone down, work on, and push back up to Github all of your code. Test all of the following: 
+
+1. Using the terminal, `git clone` one of your old Problem Sets that have tests. Make sure your keep your directory structure clean. You should clone it in an appropriate folder. You can always run `pwd` and `ls` to check where you are. 
+
+2. In the terminal, `cd` into the problem set you just cloned down. Run `npm install`, then run `npm test` to see the test run. 
+
+3. Make a minor change to the `README.md` file of your problem set, add and commit that change, and push it back to Github. Double check using the Internet browser that your change was push to the remote repo. 
+
+#### If everything has worked as expected, reach out to Ann for a final validate!!
