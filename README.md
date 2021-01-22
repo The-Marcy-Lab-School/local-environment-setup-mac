@@ -124,7 +124,7 @@ At this point, you should be able to clone down, work on, and push back up to Gi
 
 2. In the terminal, `cd` into the problem set you just cloned down. Run `npm install`, then run `npm test` to see the test run. 
 
-3. Make a minor change to the `README.md` file of your problem set, add and commit that change, and push it back to Github. Double check using the Internet browser that your change was push to the remote repo. 
+3. Make a minor change to the `README.md` file of your problem set, add and commit that change, and push it back to Github. Double check using the Internet browser that your change was pushed to the remote repo. 
 
 
 ### If everything has worked as expected, reach out to Ann for a final validation!!
