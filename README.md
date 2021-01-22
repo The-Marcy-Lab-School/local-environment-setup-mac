@@ -60,9 +60,9 @@ You can do using the following commands:
 
 ## Download Node and NPM
 
-1. [Download Node form their website](https://nodejs.org/en/). Make sur eyou click on the LTS version Recommended For Most Users. Go through the installation steps. 
+1. [Download Node form their website](https://nodejs.org/en/). Make sure you click on the LTS version Recommended For Most Users. Go through the installation steps. 
 
-2. When you are finished installing, quit and restart your Terminal. Type `node -v` and you should not get an error and should see some version number. Type `npm -v` and you should not get an error and should see some version number.
+2. When you are finished installing, quit and restart your Terminal. Then, type `node -v` and you should not get an error and should see some version number. Type `npm -v` and you should not get an error and should see some version number.
 
 ## Download React
 
@@ -126,4 +126,5 @@ At this point, you should be able to clone down, work on, and push back up to Gi
 
 3. Make a minor change to the `README.md` file of your problem set, add and commit that change, and push it back to Github. Double check using the Internet browser that your change was push to the remote repo. 
 
-#### If everything has worked as expected, reach out to Ann for a final validate!!
+
+### If everything has worked as expected, reach out to Ann for a final validation!!
