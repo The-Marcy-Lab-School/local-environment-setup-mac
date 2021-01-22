@@ -5,7 +5,8 @@ Today, we'll be setting up our local development environment for Mac. For the Wi
 ## Table of Contents
 1. Download VS Code for Mac and command line tools
 2. Set up local Development directory
-3. Set up your terminal to push and pull from Github
+3. Configuring Github with your Terminal
+4. Add SSH Key for Github Setup
 
 ## Download VS Code
 VS Code is a code editor we can use to edit files and write programs. 
@@ -30,7 +31,7 @@ VS Code is a code editor we can use to edit files and write programs.
 
 ![terminal](./assets/terminal.png)
 
-2. Using your Terminal as a command line, create a space where you can put all your Marcy Lab code. We recommend:
+2. Using your Terminal as a command line, create a folder structure where you can put all your Marcy Lab code. We recommend:
 ```
 Developement
  |- unit-5
@@ -40,8 +41,8 @@ Developement
 ```
 You can do using the following commands:
 * `cd` to navigate to the home directory.
-* `ls` to **MAKE SURE** you are in the home directory. You should see folder like "Desktop" and "Documents".
-* `mkdir Development` to create a folder for all your work.
+* `ls` to **MAKE SURE** you are in the home directory. You should see folders like "Desktop" and "Documents".
+* `mkdir Development` to create a folder for *all* your work.
 * `cd Development` where you will create more subdirectories.
 * `mkdir unit-5 unit-6 unit-7 unit-8` to make four folders at once.
 * `ls` to ensure the folders were created.
@@ -55,3 +56,46 @@ You can do using the following commands:
 5. Your directories and files are in the left panel. You can start a new "VS Code Terminal" by selecting Terminal from the top menu bar. The "VS Code Terminal" works *exactly* the same as your Mac "Terminal" and your "AWS Cloud9 Terminal"!
 
 ![vscode](./assets/vscode.png)
+
+## Configuring Github with your Terminal
+
+1. In either your Mac Terminal or VS Code Terminal, Run the following lines:
+
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "Your Github Email Address"
+git config --global credential.helper store
+```
+
+2. Confirm that the configuration was successful by running `git config --global user.name`. The terminal should print out your name. Next, run `git config --global user.email`. The terminal should print our your email address.
+
+## Add SSH Key
+
+While we're configuring GitHub, we should add a new SSH key to allow you to push and pull from Github using SSH. 
+
+1. First, check if you already have an SSH key by running `cat ~/.ssh/id_rsa.pub`. If the terminal prints out a long string of characters starting with ssh-rsa, you've already got a key.
+
+2. If the running previous step printed "No such file or directory", then run `ssh-keygen` to create a key. Leave everything blank and press enter for the default location and no passphrase. You should be prompted to select a file and passphrase for your new key. Leave everything blank and press enter for the default location and no passphrase. If you’re asked if you want to overwrite, then you already have an SSH key, and you do not want to overwrite it. If you've done every correctly, you should be something like this printed to your terminal:
+
+![4](./assets/4.png)
+
+Run `cat ~/.ssh/id_rsa.pub` in your terminal. Copy the output (starting from `ssh-rsa`). You'll need it for the next step
+
+3. Navigate to the homepage of Github in your browser. Go to your account settings:
+
+![5](./assets/5.png)
+
+Click "SSH and GPG Keys":
+
+![6](./assets/6.png)
+
+Click the "New SSH key" button:
+
+![7](./assets/7.png)
+
+Put whatever you want for the title, but preferably something related to C9 since that's the machine that has this key. Paste the key in the text area and click "Add SSH key".
+
+![8](./assets/8.png)
+
+### Confirm that everything is working
+
