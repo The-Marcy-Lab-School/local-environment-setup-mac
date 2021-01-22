@@ -116,7 +116,7 @@ Put whatever you want for the title, like "Personal Computer". Paste the key in 
 
 ![8](./assets/8.png)
 
-### Confirm that everything is working
+## Confirm that everything is working
 
 At this point, you should be able to clone down, work on, and push back up to Github all of your code. Test all of the following: 
 
