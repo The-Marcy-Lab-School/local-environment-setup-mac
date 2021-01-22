@@ -5,7 +5,7 @@ Today, we'll be setting up our local development environment for Mac. For the Wi
 ## Table of Contents
 1. Download VS Code for Mac and command line tools
 2. Set up local Development directory
-3. Install Node, NPM, and React
+3. Install Node and NPM
 4. Configuring Github with your Terminal
 5. Add SSH Key for Github Setup
 
@@ -60,21 +60,9 @@ You can do using the following commands:
 
 ## Download Node and NPM
 
-1. [Download Node form their website](https://nodejs.org/en/). Make sure you click on the LTS version Recommended For Most Users. Go through the installation steps. 
+1. [Download Node from their website](https://nodejs.org/en/). Make sure you click on the LTS version Recommended For Most Users. Go through the installation steps. 
 
 2. When you are finished installing, quit and restart your Terminal. Then, type `node -v` and you should not get an error and should see some version number. Type `npm -v` and you should not get an error and should see some version number.
-
-## Install React
-
-1. In your terminal, run `npm install -g create-react-app`. If you get an error, run `sudo npm install -g create-react-app` instead and provide your computer's password. 
-
-2. In the terminal, navigate until you are in the `Development` folder you created. Once you're in the `Development` folder, run `npx create-react-app my-app` and wait until the React project is created. Then run `cd my-app`. Then run `npm start`.
-
-3. You should see the following webpage open in your browser:
-
-![react](./assets/react.png)
-
-4. Now that we've confirmed React is installed, you should delete the folder `my-app` via Finder or the Terminal (`rm -rf my-app`). 
 
 ## Configuring Github with your Terminal
 
