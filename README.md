@@ -34,7 +34,7 @@ VS Code is a code editor we can use to edit files and write programs.
 
 2. Using your Terminal as a command line, create a folder structure where you can put all your Marcy Lab code. We recommend:
 ```
-Developement
+Development
  |- unit-5
  |- unit-6
  |- unit-7
