@@ -48,6 +48,10 @@ You can do using the following commands:
 
 ![commands](./assets/commands.png)
 
-3. Lastly, you should be able to type the command `code .` into your terminal and it will open VS Code for you. Remember this temrinal command in the future. It will be very helpful!
+3. Lastly, you should be able to type the command `code .` into your terminal and it will open VS Code for you. Remember this terminal command in the future. It will be very helpful!
+
+4. Familiarize yourself with VS Code. This will be your new coding environment. It is very similar to AWS Cloud 9 as long as you **open VS Code via the Terminal** from the **home directory** (you can always navigate to the home directory with `cd` and no path following the command). 
+
+5. Your directories and files are in the left panel. You can start a new "VS Code Terminal" by selecting Terminal from the top menu bar. The "VS Code Terminal" works *exactly* the same as your Mac "Terminal" and your "AWS Cloud9 Terminal"!
 
 ![vscode](./assets/vscode.png)
