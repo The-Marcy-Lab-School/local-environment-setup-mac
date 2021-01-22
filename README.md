@@ -16,7 +16,7 @@ VS Code is a code editor we can use to edit files and write programs.
 
 ![download](./assets/download.png)
 
-3. Lauch VS Code and open the Command Palette by typing Shift+Command+P (⇧⌘P). Then type 'shell command' to find the Shell Command: Install 'code' command in PATH command. Click it to install. 
+3. Open VS Code and open the Command Palette by typing Shift+Command+P (⇧⌘P). Then type 'shell command' to find the Shell Command: Install 'code' command in PATH command. Click it to install. 
 
 ![shell](./assets/shell.png)
 
@@ -44,5 +44,10 @@ You can do using the following commands:
 * `mkdir Development` to create a folder for all your work.
 * `cd Development` where you will create more subdirectories.
 * `mkdir unit-5 unit-6 unit-7 unit-8` to make four folders at once.
+* `ls` to ensure the folders were created.
 
 ![commands](./assets/commands.png)
+
+3. Lastly, you should be able to type the command `code .` into your terminal and it will open VS Code for you. Remember this temrinal command in the future. It will be very helpful!
+
+![vscode](./assets/vscode.png)
