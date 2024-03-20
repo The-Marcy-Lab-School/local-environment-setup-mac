@@ -42,7 +42,7 @@ Development
  |- unit-7
  |- unit-8
 ```
-You can do using the following commands:
+You can do this using the following commands:
 * `cd` to navigate to the home directory.
 * `ls` to **MAKE SURE** you are in the home directory. You should see folders like "Desktop" and "Documents".
 * `mkdir Development` to create a folder for *all* your work.
