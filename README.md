@@ -4,39 +4,16 @@ Today, we'll be setting up our local development environment for Mac. For the Wi
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Download VS Code](#download-vs-code)
 - [Set up local `Development` directory](#set-up-local-development-directory)
+- [Download VS Code](#download-vs-code)
 - [Familiarize yourself with VS Code](#familiarize-yourself-with-vs-code)
 - [Download Node and NPM](#download-node-and-npm)
 - [Write your first JavaScript program](#write-your-first-javascript-program)
 - [Configure your Github using the Terminal](#configure-your-github-using-the-terminal)
 
-
-## Download VS Code
-VS Code is a code editor we can use to edit files and write programs. First, make sure that you don't already have VS Code installed. 
-- Search for Visual Studio Code on your computer. You can so this via Spotlight Search (Command+Spacebar) and type "Visual Studio Code":
-
-![](./assets/vs-code-spotlight.png)
-
-If it shows up, then you can skip to setting up your [local development directory](#set-up-local-development-directory)!
-
-If it does not show up, follow these steps to install VS Code:
-
-1. [Download VS Code for Mac](https://code.visualstudio.com/download)
-
-2. Open up "Finder", navigate to your Downloads folder, click the `.zip` file, then drag Visual Studio Code to your Application folder.
-
-![download](./assets/download.png)
-
-3. Open VS Code and open the Command Palette by typing Shift+Command+P (⇧⌘P). Then type 'shell command' to find the Shell Command: Install 'code' command in PATH command. Click it to install. 
-
-![shell](./assets/shell.png)
-
-4. If the Shell Command install was successful, you should see this pop-up in the bottom-right of your VS Code:
-
-![installed](./assets/installed.png)
-
 ## Set up local `Development` directory
+
+First, let's get familiar with the **Terminal**. It's an application that you can use to manage your file system. At first, it may seem slow but you'll quickly learn how to use it and see how powerful it can be!
 
 1. Open your Terminal. You can so this via Spotlight Search (Command+Spacebar)and type "Terminal":
 
@@ -56,17 +33,46 @@ If it does not show up, follow these steps to install VS Code:
     * `mkdir unit-0 unit-1 unit-2 unit-3` and so on to make multiple folders at once.
     * `ls` to ensure the folders were created. You should see folders for `unit-0` up to `unit-8`.
 
+## Download VS Code
 
-3. Lastly, we're going to open up VS Code.
-   - In your Terminal, type the command `code .` and it will open VS Code for you with the root of your file system in your `Development` folder. 
-   - Remember this `code .` command in the future. It can be used to open up VS Code in whatever folder your Terminal application is currently located.
+While the Terminal can be used to manage files, we'll use VS Code to actually write code.
+
+VS Code is a code editor we can use to edit files and write programs. First, make sure that you don't already have VS Code installed. 
+- Search for Visual Studio Code on your computer. You can so this via Spotlight Search (Command+Spacebar) and type "Visual Studio Code":
+
+![](./assets/vs-code-spotlight.png)
+
+If it shows up, then you can skip to the next section, [Familiarize yourself with VS Code](#familiarize-yourself-with-vs-code).
+
+If it does not show up, follow these steps to install VS Code:
+
+1. [Download VS Code for Mac](https://code.visualstudio.com/download)
+
+2. Open up "Finder", navigate to your Downloads folder, click the `.zip` file, then drag Visual Studio Code to your Application folder.
+
+![download](./assets/download.png)
 
 ## Familiarize yourself with VS Code
+Now, we're going to explore Visual Studio Code.
 
-This will be your new coding environment. 
-* Your directories and files are in the left panel. You should see your `Development` folder with your `unit-0` through `unit-8` folders inside.
-* You can start a new "VS Code Terminal" by selecting **Terminal** and **New Terminal** from the top menu bar. 
-* The "VS Code Terminal" is *exactly* the same as your Mac "Terminal". Anything you do in Terminal you can do here as well.
+First, we'll add the very helpful `code` command which can quickly open up a VS Code window from the Terminal.
+1. Open VS Code and open the Command Palette by typing Shift+Command+P (⇧⌘P). Then type 'shell command' to find the Shell Command: Install 'code' command in PATH command. Click it to install. 
+
+    ![shell](./assets/shell.png)
+
+2. If the Shell Command install was successful, you should see this pop-up in the bottom-right of your VS Code:
+
+    ![installed](./assets/installed.png)
+
+3. Test out that this worked by opening up your Terminal application, make sure you are in the `Development` folder, and type `code .` to open up VS Code.
+
+   - It should open VS Code for you with the root of your file system in your `Development` folder. 
+   - Remember this `code .` command in the future. It can be used to open up VS Code in whatever folder your Terminal application is currently located.
+
+Now, let's get to know the VS Code layout!
+   * Your directories and files are in the left panel. You should see your `Development` folder with your `unit-0` through `unit-8` folders inside.
+   * You can start a new "VS Code Terminal" by selecting **Terminal** and **New Terminal** from the top menu bar. 
+   * The "VS Code Terminal" is *exactly* the same as your Mac "Terminal". Anything you do in Terminal you can do here as well.
 
 ![vscode](./assets/vscode.png)
 
